@@ -1,0 +1,22 @@
+.check-btn{
+    width: 100%;
+    text-align: right;
+}
+.check-btn1{
+    width: 100%;
+    text-align: right;
+}
+@media(max-width:500px){
+    .check-btn{
+        text-align: center;
+    }
+    .check-btn1{
+        width: 80%;
+        text-align: center;
+    }
+}
+@media(max-width:320px){
+    .check-btn1{
+        width: 68%;
+    }
+}

@@ -1,0 +1,31 @@
+.Messages{
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.bg-l-grey{
+ background-color: #f8f8f8;   
+}
+.fs-20{
+    font-size: 20px;
+}
+.mt-20{
+    margin-top: 20px !important;
+}
+.card-shadow{
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+.mt-10{
+    margin-top: 10px !important;
+}
+.mb-10{
+    margin-bottom: 10px !important;
+}
+.p-r-l-100{
+    padding: 0 100px;
+}
+.btn-flex-end{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+}

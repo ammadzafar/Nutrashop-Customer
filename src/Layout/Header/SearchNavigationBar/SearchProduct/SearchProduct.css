@@ -1,0 +1,8 @@
+.ant-select-item-option-active:not(.ant-select-item-option-disabled)
+{
+    background-color: green !important;
+    color: #fff !important;
+}
+.ant-select-item-option-active a:not(.ant-select-item-option-disabled){
+    color: #fff !important;
+}

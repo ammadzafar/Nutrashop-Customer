@@ -1,0 +1,258 @@
+.Menu{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-top: 2px solid transparent;
+    color: #fff;
+}
+/* .Dropdown-Menu{
+    background-color: none;
+}
+.Dropdown-Menu button{
+    background-color: none;
+} */
+ .btn{
+    background-color: none !important;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 19px;
+  border: none;
+  margin: 4px 0 0 0;
+  font-weight: 500;
+  }
+  .MainNav{
+    align-items: center;
+    position: relative;
+  }
+  .dropdown-content h2{
+    color: #012169;
+    font-size: 27px;
+    font-weight: 600;
+  }
+  .dropdown{
+    position: unset !important;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  /* .dropdown {
+    position: relative;
+    display: inline-block;
+  } */
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 1306px;
+    overflow-y: scroll;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 2000;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    transition-delay: 0.4s;
+  }
+  .dropdown-menu{
+    position: unset !important;
+  }
+  .NavBar-Main{
+    position: relative;
+  }
+  .MenuData{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Menu-inner-Data{
+    width: 22%;
+  }
+  .Menu-inner-Data h3{
+    font-size: 28px;
+    color: #1890ff !important;
+  }
+  .Menu-inner-Data h3 a {
+    font-size: 24px;
+    color: #1890ff !important;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #474444;
+    text-decoration: none;
+    display: block;
+    line-height: 31px;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: transparent;
+    transition: 1s;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .nav-link:hover .dropdown-content {display: block;padding: 14px 1px 0px 12px;transition: 0.4s;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: transparent;}
+  .MenuDataImg{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 33px 0px 0 -1px;
+
+  }
+  .MenuDataImg a {
+    width: 11%;
+    margin: 0px 0 20px 0;
+}
+  .Brand-Image{
+    text-align: center;
+  }
+  .Brand-Image img{
+    max-width: 122px;
+  }
+ .Brand-Image h3{
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+
+ }
+ /* .no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(http://smallenvelop.com/demo/simple-pre-loader/images/loader-64x/Preloader_2.gif) center no-repeat #fff;
+} */
+.nav-link:nth-child(1):hover .dropdown .dropdown-content{
+   width: 200px;
+ }
+ .content h2 {
+  color: #222b3e;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 12px 0 0 0;
+}
+
+ .brand-mu{
+  padding: 0;
+  margin: -10px 0 0 0;
+ }
+ .brand-mu-drop{
+  top: -21px;
+  border-top: 2px solid transparent;
+ }
+ .brand-mu-drop:hover{
+  border-top: 2px solid;
+ }
+ /* .brand-mu:hover{
+  border-top: 1px solid;
+ }
+ .brand-mu-btn{
+
+ } */
+
+ /*--------- Media Query 1350px ----------*/
+
+
+
+
+ /*--------- Media Query 1200px ----------*/
+
+
+ @media only screen and (max-width: 1200px) {
+  .dropdown-content {
+    min-width: 340px;
+ }
+.content h2 {
+  font-size: 14px;
+  margin: 8px 0 0 0;
+}
+.MenuDataImg a {
+  width: 20%;
+  margin: 0px 0 32px 0;
+}
+.dropbtn {
+  font-size: 14px;
+}
+}
+
+ /*--------- Media Query 991px ----------*/
+
+
+ @media only screen and (max-width: 991px) {
+  .dropdown-content {
+    min-width: 266px;
+}
+.dropbtn {
+  font-size: 14px;
+}
+.content h2 {
+  font-size: 15px;
+  margin: 11px 0 0 0;
+}
+.MenuDataImg a {
+  width: 20%;
+  margin: 0px 0 32px 0;
+}
+.MenuDataImg {
+  margin: 23px 0px 0 -1px;
+}
+.Brand-Image img {
+  max-width: 100px;
+}
+.content h2 {
+  font-size: 13px;
+  margin: 8px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+}
+ /*--------- Media Query 767px ----------*/
+
+
+ @media only screen and (max-width: 767px) {
+  .dropbtn {
+    font-size: 14px;
+    margin: 14px 0px 0px 17px;
+    font-weight: 400;
+    border-top: unset;
+  }
+  .brand-mu-drop:hover{
+    border-top: unset;
+   }
+   .dropdown-content {
+    min-width: 255px;
+   }
+   .MenuDataImg a {
+    width: 49%;
+    margin: 0px 0 7px 0;
+}
+.nav-link:hover .dropdown-content {
+  padding: 14px 1px 0px 0px;
+}
+.content h2 {
+  font-size: 13px;
+  margin: 11px 0 0 0;
+}
+.Brand-Image img {
+  max-width: 110px;
+}
+.dropdown-content {
+  right: 0;
+  left: 0;
+}
+
+ }
+.brndscrl{
+  height: 100vh;
+}
+

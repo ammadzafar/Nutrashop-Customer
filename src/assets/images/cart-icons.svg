@@ -1,0 +1,5 @@
+<svg id="cart-icons" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <path id="Path_3" data-name="Path 3" d="M15,31.5A1.5,1.5,0,1,1,13.5,30,1.5,1.5,0,0,1,15,31.5Z" transform="translate(-4.55 -11.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_4" data-name="Path 4" d="M31.5,31.5A1.5,1.5,0,1,1,30,30,1.5,1.5,0,0,1,31.5,31.5Z" transform="translate(-13 -11.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_5" data-name="Path 5" d="M1.5,1.5H5.136l2.436,9.82A1.773,1.773,0,0,0,9.391,12.5h8.836a1.773,1.773,0,0,0,1.818-1.181L21.5,5.167H6.045" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

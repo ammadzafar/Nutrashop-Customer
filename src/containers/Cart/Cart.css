@@ -1,0 +1,15 @@
+.CartImage{
+    display: block;
+    margin: 5% auto 2%;
+    height:25%;
+    width: 25%;
+}
+.space{
+    margin-left: 635px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.message{
+    text-align: center;
+}

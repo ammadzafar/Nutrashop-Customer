@@ -1,0 +1,76 @@
+.reviews-service-container {
+  min-height: 350px;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 1210px;
+}
+.review-card {
+  width: 290px;
+  margin: 0px 5px;
+  background-color: #f6f6f6;
+  border: 1px solid #eeeded;
+  border-radius: 5px;
+  padding: 15px;
+}
+.review-name {
+  font-weight: 600;
+  padding-left: 5px;
+  font-size: 17px;
+  font-family: Metropolis, Arial, sans-serif;
+  line-height: 1.15;
+  color: #424242;
+}
+.review-verified {
+  font-size: 15px;
+  color: #646464;
+  font-weight: normal;
+}
+.review-star {
+  display: block;
+  height: 22px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.review-content {
+  display: block;
+  padding: 10px 5px;
+  overflow-y: auto;
+  height: 180px;
+}
+.review-content p {
+  font-size: 16.4px;
+  color: #2b2b2b;
+  margin: 15.3px 0;
+}
+.stars {
+  color: #fcbe02;
+  font-size: 20px;
+}
+.reviews-service-container .react-multiple-carousel__arrow--left {
+  left: -23px;
+}
+.reviews-service-container .react-multiple-carousel__arrow--right {
+    right: -23px;
+}
+.reviews-service-container .react-multiple-carousel__arrow {
+  background: #fff;
+  border-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 0;
+  top: calc(50% - 40px);
+  transform-origin: 50% 50%;
+  height: 52px;
+  width: 52px;
+  border: 2px solid whitesmoke;
+  transition: all 250ms;
+  box-shadow: rgb(0 0 0 / 12%) 0px 1px 6px;
+}
+.reviews-service-container .react-multi-carousel-list{
+    position: unset;
+}

@@ -1,0 +1,31 @@
+.Logo{
+    max-width: 100% !important;
+}
+.Logo a{
+    max-width: 50%;
+}
+.emptyCartMessage{
+    text-align: center;
+}
+.headerProductName{
+    color: blue;
+}
+.emptyCartImg{
+    margin-left: 25%;
+    margin-bottom: 15%;
+    height:50%;
+    width: 50%;
+}
+.trashIcon{
+    color: red;
+}
+.btnAlign{
+    margin-left: 20%;
+    padding-top: 5%;
+}
+.emptyDropDown{
+    margin-top: 60%;
+}
+.pointer{
+    cursor: pointer;
+}
